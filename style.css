@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+.profile-card {
+  display: block;
+  margin: 0 auto;
+}
