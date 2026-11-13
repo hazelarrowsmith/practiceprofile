@@ -2,8 +2,43 @@
   box-sizing: border-box;
 }
 
+main {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  text-align: left;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
 .profile-card {
   display: block;
-  
+  width: 504px;
+  height: 300px;
   margin: 0 auto;
+  background-color:aqua;
+}
+
+.about {
+  background-color: rgb(238, 235, 144);
+   width: 250px;
+  height: 230px;
+}
+
+.contact {
+  background-color: rgb(237, 139, 222);
+  width: 250px;
+  height: 230px;
+}
+
+.important {
+  font-weight: bold;
+  font-style: italic;
 }
